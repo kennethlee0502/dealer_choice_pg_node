@@ -26,7 +26,7 @@ app.get("/:id", async (req, res, next) => {
   }
 });
 
-const PORT = 1111;
-app.listen(process.env.PORT || PORT, () => {
+const PORT = process.env.PORT|| 1111;
+app.listen(PORT, () => {
   console.log(`listening to PORT ${PORT}`);
 });
