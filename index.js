@@ -26,9 +26,8 @@ app.get("/:id", async (req, res, next) => {
   }
 });
 
+const PORT = process.env.PORT || 3000;
 
-const { PORT=3000, LOCAL_ADDRESS='0.0.0.0' } = process.env
-server.listen(PORT, LOCAL_ADDRESS, () => {
-  const address = server.address();
-  console.log('server listening at', address);
+app.listen(PORT, () => {
+  console.log(`server listening at ${PORT}`);
 });
