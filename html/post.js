@@ -131,7 +131,7 @@ module.exports = (post) => `
 				<div class="gallery-item-info">
 
 					<ul>
-						<li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> ❤ 3.8</li>
+						<li class="gallery-item-likes"><span class="visually-hidden">Likes:</span><i class="fas fa-heart" aria-hidden="true"></i> ❤ 3.8m</li>
 					</ul>
 
 				</div>
